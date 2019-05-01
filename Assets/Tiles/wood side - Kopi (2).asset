@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: wood side - Kopi (2)
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 21300000, guid: d39de9e1b76560a4885a52360504626d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b6f76375bb58ab240b271ae17164ed7a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1

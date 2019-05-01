@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: wood side
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 21300000, guid: 19df28744beb9334d84167852605960b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 696974ace87c1e74fa646cd952a4e556, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
