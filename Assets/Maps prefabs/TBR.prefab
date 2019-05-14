@@ -246,6 +246,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4807055724511270}
+  - component: {fileID: 114223887273626318}
   m_Layer: 0
   m_Name: TBR
   m_TagString: Untagged
@@ -4921,6 +4922,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &114223887273626318
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1113063519998304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c619a54e42a9104daf4c6ebdcf9153d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114445379780233622
 MonoBehaviour:
   m_ObjectHideFlags: 1

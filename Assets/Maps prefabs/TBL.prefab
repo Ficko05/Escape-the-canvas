@@ -1264,6 +1264,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4203380099644132}
+  - component: {fileID: 114746518390063076}
   m_Layer: 0
   m_Name: TBL
   m_TagString: Untagged
@@ -4957,6 +4958,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   openingDirection: 2
+--- !u!114 &114746518390063076
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1617649339748120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c619a54e42a9104daf4c6ebdcf9153d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114951090697372226
 MonoBehaviour:
   m_ObjectHideFlags: 1

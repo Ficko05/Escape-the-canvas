@@ -621,6 +621,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4607544795799318}
+  - component: {fileID: 114735955248602068}
   m_Layer: 0
   m_Name: B
   m_TagString: Untagged
@@ -4876,6 +4877,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   openingDirection: 0
+--- !u!114 &114735955248602068
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1287186755093504}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c619a54e42a9104daf4c6ebdcf9153d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114920597940079544
 MonoBehaviour:
   m_ObjectHideFlags: 1

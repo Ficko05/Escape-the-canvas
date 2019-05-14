@@ -140,7 +140,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &500221035
 MonoBehaviour:
@@ -222,6 +222,9 @@ MonoBehaviour:
   - {fileID: 1541342494710412, guid: 291242191bc29d648904bff2b95461bd, type: 2}
   - {fileID: 1541342494710412, guid: 291242191bc29d648904bff2b95461bd, type: 2}
   ClosedRoom: {fileID: 1815286382814726, guid: 7294788ebf1450b4d97b7d0e9ec3838d, type: 2}
+  Rooms: []
+  waitTime: 1.5
+  Boss: {fileID: 1883137892732746, guid: 92288c8dafa3bf34db15927ae52418d0, type: 2}
 --- !u!1 &902739737
 GameObject:
   m_ObjectHideFlags: 0
@@ -345,7 +348,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1352256752
 GameObject:
@@ -461,7 +464,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4008232528399718, guid: 19b79d7d7b03877438d88d8936a0765e, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1244103040605342, guid: 19b79d7d7b03877438d88d8936a0765e, type: 2}
       propertyPath: m_Icon

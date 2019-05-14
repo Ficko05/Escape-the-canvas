@@ -7,8 +7,9 @@ public class RoomSpawner : MonoBehaviour {
 
     private RoomTemplate roomTemplate;
     public int openingDirection;
-    private int randNumber;
+    private int randNumber = 0;
     private bool Spawned = false;
+    public float waitTime = 3f;
     //1 --> Needs Bottom Door
     //2 --> Needs Top Door
     //3 --> Needs Left Door
@@ -17,6 +18,7 @@ public class RoomSpawner : MonoBehaviour {
 
     private void Start()
     {
+        Destroy(gameObject, waitTime);
         roomTemplate = GameObject.FindGameObjectWithTag("Rooms").GetComponent<RoomTemplate>();
         Invoke("Spawn",0.1f);
     }
