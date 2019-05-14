@@ -6,9 +6,9 @@ public class DoorAndCameraColliders : MonoBehaviour {
     public float movement = 5;
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.name == "T_Door")
+        if (collision.gameObject.name == "T_Door")
         {
-           
+
         }
         if (collision.gameObject.name == "B_Door")
         {
@@ -22,3 +22,4 @@ public class DoorAndCameraColliders : MonoBehaviour {
         {
 
         }
+    }
