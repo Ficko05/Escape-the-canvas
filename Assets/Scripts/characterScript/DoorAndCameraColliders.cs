@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DoorAndCameraColliders : MonoBehaviour {
+public class DoorAndCameraColliders : MonoBehaviour
+{
     public float movement = 5;
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -22,4 +23,6 @@ public class DoorAndCameraColliders : MonoBehaviour {
         {
 
         }
+        
     }
+}

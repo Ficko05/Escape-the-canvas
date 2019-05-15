@@ -301,7 +301,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: e09a54a305f2d324980274e8161e0d22, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9db5cd1b4cd1f4b4985f57893550c56c, type: 3}
   m_Type: 3
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -425,6 +425,9 @@ MonoBehaviour:
   - {fileID: 1541342494710412, guid: 291242191bc29d648904bff2b95461bd, type: 2}
   - {fileID: 1541342494710412, guid: 291242191bc29d648904bff2b95461bd, type: 2}
   ClosedRoom: {fileID: 1815286382814726, guid: 7294788ebf1450b4d97b7d0e9ec3838d, type: 2}
+  Rooms: []
+  waitTime: 1.5
+  Boss: {fileID: 1883137892732746, guid: 92288c8dafa3bf34db15927ae52418d0, type: 2}
 --- !u!1 &529746128
 GameObject:
   m_ObjectHideFlags: 0
@@ -468,7 +471,7 @@ GameObject:
   - component: {fileID: 902739738}
   - component: {fileID: 902739743}
   m_Layer: 0
-  m_Name: player
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -521,7 +524,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 2
-  animator: {fileID: 902739743}
+  animator: {fileID: 0}
 --- !u!212 &902739741
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -557,12 +560,12 @@ SpriteRenderer:
   m_SortingLayerID: 1267499345
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 776a15bd632d3e743b32bae522cf449e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4af0219ebda605942862c99051eb91d3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -576,7 +579,7 @@ Transform:
   m_GameObject: {fileID: 902739737}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.04, y: -0.9, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 127781267}
   m_Father: {fileID: 0}
